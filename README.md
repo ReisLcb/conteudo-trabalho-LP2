@@ -10,6 +10,17 @@
   npm install
   ```
 
+- Feito isso, abra o projeto no VS Code utilizando o comando:
+  ```bash
+  code .
+  ```
+
+- Após isto, podemos executar a aplicação executando:
+  ```bash
+  npm run start
+  ## Ou: npx ts-node ./src/index.ts
+  ```
+
 ## Instalação das dependências 
 ### IMPORTANTE
 - Esse documento foi feito em Março de 2025, portanto as versões LTS que serão utilizadas podem ser diferentes dependendo de quando você está lendo isso.
@@ -114,4 +125,18 @@
   sudo npm install typescript ts-node @types/node @types/express -D
   sudo npm install axios express readline
   ## Estamos instalando as bibliotecas: typescript, express, readline e axios
+  ```
+
+- Os arquivos que devem constar na pasta raíz do projeto são:
+  ![image](https://github.com/user-attachments/assets/9417c7af-8010-4229-96ce-f33a68e59737)
+
+- Feito isso, abra o projeto no VS Code utilizando o comando:
+  ```bash
+  code .
+  ```
+
+- Após isto, podemos executar a aplicação executando:
+  ```bash
+  npm run start
+  ## Ou: npx ts-node ./src/index.ts
   ```
