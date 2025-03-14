@@ -32,15 +32,18 @@
   ## preste atenção na versão (v0.40.1) pode ser que não seja mais a versão
   ## mais recente do NVM
   ```
+  
 - Agora podemos usar os comando **`nvm`** para instalar ou atualizar o **`Node.js`** e o **`npm`**. O comando a seguir mostra todas as versões do Node.js que está disponível:
   ```bash
    nvm list-remote
    ## uma longa lista vai aprecer
   ```
+  
 - Para instalar a versão LTS mais recente use o comando:
   ```bash
   nvm install node --lts
   ```
+  
 - E depois da instalação, é preciso selecionar qual versão vamos utilizar com o comando:
   ```bash
   nvm use --lts
@@ -53,29 +56,35 @@
   ## se saída for v5.7 é a versão LTS mais recente.
   ## se saída for "Command 'tsc' not found..." então não o Typescript não está instalado.
   ```
+  
 - Se já possui um projeto feito com Typescript é importante verificar a versão dele, dentro da pasta do projeto use o comando:
   ```bash
   cd pasta-do-seu-projeto
   npx tsc -v
   ## se saída for v5.7 é a versão LTS mais recente.
   ```
+  
 - Caso não estiver instalado globalmente, use o seguinte comando para instalar a versão mais recente:
   ```bash
   sudo npm install -g typescript
   ```
+  
 - Se já estiver instalado mas for uma versão antiga, atualize com o seguinte comando:
   ```bash
   sudo npm update -g typescript
   ```
+  
 - Para instalar dentro de um projeto, vá até a pasta e execute:
   ```bash
   sudo npm install --save-dev typescript
   ```
+  
 - Para atualizar o Typescript de um projeto, é melhor remove-lo e depois adicionar a versão mais recente, isso porque o comando npm update só atualiza dentro da mesma versão (por exemplo, versão 4.8.x para 4.9.x), por causa disso execute os comandos:
   ```bash
   sudo npm uninstall typescript
   sudo npm install --save-dev tpescript@latest
   ```
+  
 - Agora verifique dentro do arquivo **`package.json`** a versão do Typescript do seu projeto:
   ```JSON
   {
