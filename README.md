@@ -53,7 +53,39 @@
   ## se saída for v5.7 é a versão LTS mais recente.
   ## se saída for "Command 'tsc' not found..." então não o Typescript não está instalado.
   ```
+- Se já possui um projeto feito com Typescript é importante verificar a versão dele, dentro da pasta do projeto use o comando:
+  ```bash
+  cd pasta-do-seu-projeto
+  npx tsc -v
+  ## se saída for v5.7 é a versão LTS mais recente.
+  ```
+- Caso não estiver instalado globalmente, use o seguinte comando para instalar a versão mais recente:
+  ```bash
+  sudo npm install -g typescript
+  ```
+- Se já estiver instalado mas for uma versão antiga, atualize com o seguinte comando:
+  ```bash
+  sudo npm update -g typescript
+  ```
+- Para instalar dentro de um projeto, vá até a pasta e execute:
+  ```bash
+  sudo npm install --save-dev typescript
+  ```
+- Para atualizar o Typescript de um projeto, é melhor remove-lo e depois adicionar a versão mais recente, isso porque o comando npm update só atualiza dentro da mesma versão (por exemplo, versão 4.8.x para 4.9.x), por causa disso execute os comandos:
+  ```bash
+  sudo npm uninstall typescript
+  sudo npm install --save-dev tpescript@latest
+  ```
+- Agora verifique dentro do arquivo **`package.json`** a versão do Typescript do seu projeto:
+  ```JSON
+  {
+	"devDependecies": {
+		"typescript": "^5.7.3"
+	}
+  }
+  ```
 
+## Iniciando projeto
 - Crie uma nova pasta e mavegue até ela
    ```bash
    mkdir nome-da-pasta
