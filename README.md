@@ -11,7 +11,11 @@
   ```
 
 # Iniciando projeto
-### <span style="color:red">Importante</span>
+### IMPORTANTE
+- Esse documento foi feito em Fevereiro de 2025 portanto as versões LTS que serão utilizadas podem ser diferentes dependendo de quando você está lendo isso.
+- Sempre atualize os repositórios do Ubuntu com o comando **`sudo apt update`**.
+- Caso algum dos comando não funcione, tente usar o **`sudo`** antes para dar permissão de super usuário
+  
 ## Instalação do Nodejs, npm e typescript
 - Primeiro, verifique se o **Nodejs** e o **npm** estão instalados:
    ```bash
