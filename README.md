@@ -16,7 +16,11 @@
    mkdir nome-da-pasta
    cd pasta desejada
    ```
-
+- Inicie o typescript no diretório do projeto
+   ```bash
+   npx tsc --init
+   ```
+  
 - Instalar as bibliotecas que serão necessárias para o projeto
   ```bash
   sudo npm install typescript ts-node @types/node @types/express -D
