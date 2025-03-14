@@ -12,7 +12,7 @@
 
 # Iniciando projeto
 ### IMPORTANTE
-- Esse documento foi feito em Fevereiro de 2025 portanto as versões LTS que serão utilizadas podem ser diferentes dependendo de quando você está lendo isso.
+- Esse documento foi feito em Março de 2025, portanto as versões LTS que serão utilizadas podem ser diferentes dependendo de quando você está lendo isso.
 - Sempre atualize os repositórios do Ubuntu com o comando **`sudo apt update`**.
 - Caso algum dos comando não funcione, tente usar o **`sudo`** antes para dar permissão de super usuário
   
@@ -32,6 +32,7 @@
   ## preste atenção na versão (v0.40.1) pode ser que não seja mais a versão
   ## mais recente do NVM
   ```
+- Agora podemos usar os comando **`nvm`** para instalar ou atualizar o **`Node.js`** e o **`npm`**. O comando a seguir mostra todas as versões do Node.js que está disponível:
   
 - Crie uma nova pasta e mavegue até ela
    ```bash
