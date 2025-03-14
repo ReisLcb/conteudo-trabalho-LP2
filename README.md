@@ -2,17 +2,26 @@
 - Para clonar este repositório em sua máquina, utilize o seguinte comando:
    ```bash
    cd pasta-desejada 
-   git clone https://github.com/ReisLcb/appRoute-TOP.git
+   git clone https://github.com/ReisLcb/conteudo-trabalho-LP2
    ```
-  - Caso queira clonar a resolução do exercício ou alguma outra branch específica, execute:
-    ```bash
-    git clone -b <branch-name> https://github.com/ReisLcb/appRoute-TOP.git
-    ## <branch-name> pode ser substituido por 'exercicio-cadastro'
-    ```
 
 - Para instalar as dependências, basta executar no terminal dentro da pasta local do projeto:
   ```bash
   npm install
+  ```
+
+# Iniciando projeto
+- Crie uma nova pasta e mavegue até ela
+   ```bash
+   mkdir nome-da-pasta
+   cd pasta desejada
+   ```
+
+- Instalar as bibliotecas que serão necessárias para o projeto
+  ```bash
+  npm install typescript ts-node @types/node @types/express -D
+  npm install axios express readline
+  ```
 
 
 # Nome da aula
