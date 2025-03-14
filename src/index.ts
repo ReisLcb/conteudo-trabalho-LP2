@@ -84,6 +84,7 @@ function showMenu(){
                 break;
 
             case "4":
+                console.log("Saindo...")
                 rl.close()
                 process.exit()
 
