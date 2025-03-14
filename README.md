@@ -19,7 +19,7 @@
 ## Instalação do Nodejs, npm e typescript
 - Primeiro, verifique se o **Nodejs** e o **npm** estão instalados:
    ```bash
-    node -v
+   node -v
    ## se saída for v22.14.0 é a versão LTS mais recente
    ## se saída for "Command 'node' not found..." então não o Node.js não está instalado
    npm -v
