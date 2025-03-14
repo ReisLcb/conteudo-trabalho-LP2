@@ -19,8 +19,8 @@
 
 - Instalar as bibliotecas que serão necessárias para o projeto
   ```bash
-  npm install typescript ts-node @types/node @types/express -D
-  npm install axios express readline
+  sudo npm install typescript ts-node @types/node @types/express -D
+  sudo npm install axios express readline
   ```
 
 
