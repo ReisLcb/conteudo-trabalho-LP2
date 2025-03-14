@@ -20,13 +20,13 @@
    ```bash
    npx tsc --init
    ```
+- Inicie o `package.json` no projeto com o comando
+   ```bash
+   npm --init -y
+   ```
   
 - Instalar as bibliotecas que serão necessárias para o projeto
   ```bash
   sudo npm install typescript ts-node @types/node @types/express -D
   sudo npm install axios express readline
   ```
-
-
-# Nome da aula
-## Tecnologias utilizadas
