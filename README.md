@@ -128,6 +128,7 @@
   ```
 
 - Os arquivos que devem constar na pasta raíz do projeto são:
+  
   ![image](https://github.com/user-attachments/assets/9417c7af-8010-4229-96ce-f33a68e59737)
 
 - Feito isso, abra o projeto no VS Code utilizando o comando:
