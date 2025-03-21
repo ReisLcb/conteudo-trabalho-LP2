@@ -77,23 +77,23 @@
   
 - Caso não estiver instalado globalmente, use o seguinte comando para instalar a versão mais recente:
   ```bash
-  sudo npm install -g typescript
+  npm install -g typescript
   ```
   
 - Se já estiver instalado mas for uma versão antiga, atualize com o seguinte comando:
   ```bash
-  sudo npm update -g typescript
+  npm update -g typescript
   ```
   
 - Para instalar dentro de um projeto, vá até a pasta e execute:
   ```bash
-  sudo npm install --save-dev typescript
+  npm install --save-dev typescript
   ```
   
 - Para atualizar o Typescript de um projeto, é melhor remove-lo e depois adicionar a versão mais recente, isso porque o comando npm update só atualiza dentro da mesma versão (por exemplo, versão 4.8.x para 4.9.x), por causa disso execute os comandos:
   ```bash
-  sudo npm uninstall typescript
-  sudo npm install --save-dev tpescript@latest
+  npm uninstall typescript
+  npm install --save-dev tpescript@latest
   ```
   
 - Agora verifique dentro do arquivo **`package.json`** a versão do Typescript do seu projeto:
