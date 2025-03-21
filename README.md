@@ -87,7 +87,7 @@
   
 - Para instalar dentro de um projeto, vá até a pasta e execute:
   ```bash
-  sudo npm install --save-dev typescript
+  npm install --save-dev typescript
   ```
   
 - Para atualizar o Typescript de um projeto, é melhor remove-lo e depois adicionar a versão mais recente, isso porque o comando npm update só atualiza dentro da mesma versão (por exemplo, versão 4.8.x para 4.9.x), por causa disso execute os comandos:
