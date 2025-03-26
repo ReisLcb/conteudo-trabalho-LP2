@@ -6,7 +6,7 @@
    - Agora se deseja pegar outra branch deste repositório, execute:
      ```bash
      git clone -b <branch-name> https://github.com/ReisLcb/conteudo-trabalho-LP2
-     ## Para pegar o trabalho, substitua <branch-name> por 'trabalho-lip2'
+     ## Para pegar o trabalho, substitua <branch-name> por 'trabalho-LP2'
      ```
 
 - Para instalar as dependências, basta executar no terminal dentro da pasta local do projeto:
